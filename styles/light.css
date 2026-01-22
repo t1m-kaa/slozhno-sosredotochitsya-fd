@@ -15,9 +15,11 @@
   --accent-color: var(--lavender-pink);
   --page-main-color: var(--light-pink);
   --slogan-color: var(--light-pink);
-  
+
   --article-title-color: var(--ash-grey-color);
   --section-title-color: var(--ash-grey-color);
+
+  --section-title-color-rgba: 53, 52, 48;
 }
 
 @media (prefers-color-scheme: light) {
@@ -30,7 +32,7 @@
     --article-title-color: var(--ash-grey-color);
     --section-title-color: var(--ash-grey-color);
   }
-} 
+}
 
 :root.theme-light .rec-label {
   display: none;

@@ -19,7 +19,8 @@
 
   --article-title-color: var(--dark-blue-color);
   --section-title-color: var(--fuchsia-color);
-  
+
+  --section-title-color-rgba: 255, 0, 112;
 }
 
 /* @media (prefers-color-scheme: dark) {
