@@ -11,14 +11,11 @@
   */
   --cover-image: var(--cover-image-light);
   --page-text-color: var(--ash-grey-color);
-
   --accent-color: var(--lavender-pink);
   --page-main-color: var(--light-pink);
   --slogan-color: var(--light-pink);
-
   --article-title-color: var(--ash-grey-color);
   --section-title-color: var(--ash-grey-color);
-
   --section-title-color-rgba: 53, 52, 48;
 }
 

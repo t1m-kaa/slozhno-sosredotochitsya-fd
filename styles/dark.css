@@ -11,19 +11,15 @@
   */
   --cover-image: var(--cover-image-dark);
   --page-text-color: var(--rose-grey-color);
-
   --accent-color: var(--fuchsia-color);
-
   --page-main-color: var(--dark-blue-color);
   --slogan-color: var(--magenta-color);
-
   --article-title-color: var(--dark-blue-color);
   --section-title-color: var(--fuchsia-color);
-
   --section-title-color-rgba: 255, 0, 112;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --cover-image: var(--cover-image-dark);
     --page-text-color: var(--rose-grey-color);
@@ -36,4 +32,4 @@
     --article-title-color: var(--dark-blue-color);
     --section-title-color: var(--fuchsia-color);
   }
-} */
+}
