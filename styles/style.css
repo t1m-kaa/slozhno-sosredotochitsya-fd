@@ -127,6 +127,10 @@
   gap: 9px;
 }
 
+.section-card__text {
+  line-height: 23.4px;
+}
+
 .section-title {
   color: var(--section-title-color);
   font-weight: var(--font-weight-bold);
@@ -192,7 +196,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-block-start: 39px;
+  margin-block-start: 40px;
 }
 
 .footer-title {
