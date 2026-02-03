@@ -9,16 +9,6 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-<<<<<<< HEAD
-  --cover-image: var(--cover-image-dark);
-  --page-text-color: var(--rose-grey-color);
-  --accent-color: var(--fuchsia-color);
-  --page-main-color: var(--dark-blue-color);
-  --slogan-color: var(--magenta-color);
-  --article-title-color: var(--dark-blue-color);
-  --section-title-color: var(--fuchsia-color);
-  --section-title-color-rgba: 255, 0, 112;
-=======
   --bg-color: var(--blue-dark);
   --bg-image: var(--bg-dark-image);
   --main-heading-color: var(--purple-violet);
@@ -30,25 +20,10 @@
   --decorated-zone-color: var(--pink-fuchsia);
   --nav-accent-color: var(--pink-fuchsia);
   --nav-accent-color-fade: rgb(var(--pink-fuchsia-rgb) / 0.5);
->>>>>>> ff9de01 (reset commit)
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-<<<<<<< HEAD
-    --cover-image: var(--cover-image-dark);
-    --page-text-color: var(--rose-grey-color);
-
-    --accent-color: var(--fuchsia-color);
-
-    --page-main-color: var(--dark-blue-color);
-    --slogan-color: var(--magenta-color);
-
-    --article-title-color: var(--dark-blue-color);
-    --section-title-color: var(--fuchsia-color);
-  }
-}
-=======
     /* Дублируем только те же переменные, что и выше */
     --bg-color: var(--blue-dark);
     --bg-image: var(--bg-dark-image);
@@ -63,4 +38,3 @@
     --nav-accent-color-fade: rgb(var(--pink-fuchsia-rgb) / 0.5);
   }
 }
->>>>>>> ff9de01 (reset commit)

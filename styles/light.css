@@ -9,16 +9,6 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-<<<<<<< HEAD
-  --cover-image: var(--cover-image-light);
-  --page-text-color: var(--ash-grey-color);
-  --accent-color: var(--lavender-pink);
-  --page-main-color: var(--super-light-pink);
-  --slogan-color: var(--light-pink);
-  --article-title-color: var(--ash-grey-color);
-  --section-title-color: var(--ash-grey-color);
-  --section-title-color-rgba: 53, 52, 48;
-=======
   --bg-color: var(--pink-very-light);
   --bg-image: var(--bg-light-image);
 
@@ -35,26 +25,10 @@
   .header__recording-item {
     display: none;
   }
->>>>>>> ff9de01 (reset commit)
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-<<<<<<< HEAD
-    --cover-image: var(--cover-image-light);
-    --page-text-color: var(--ash-grey-color);
-    --accent-color: var(--lavender-pink);
-    --page-main-color: var(--light-pink);
-    --slogan-color: var(--light-pink);
-    --article-title-color: var(--ash-grey-color);
-    --section-title-color: var(--ash-grey-color);
-  }
-}
-
-:root.theme-light .rec-label {
-  display: none;
-}
-=======
     /* Дублируем только те же переменные, что и выше */
     --bg-color: var(--pink-very-light);
     --bg-image: var(--bg-light-image);
@@ -70,4 +44,3 @@
     --nav-accent-color-fade: rgb(var(--gray-dark-rgb) / 0.5);
   }
 }
->>>>>>> ff9de01 (reset commit)
