@@ -4,6 +4,7 @@
 */
 
 :root {
+<<<<<<< HEAD
   --cover-image-dark: url(../images/cover-image-dark.png);
   --cover-image-light: url(../images/cover-image-light.png);
   --fuchsia-color: #FF0070;
@@ -23,3 +24,26 @@
   --spacing-large: 80px;
 }
 
+=======
+  --pink-fuchsia: #FF0070;
+  --pink-fuchsia-rgb: 255 0 112;
+  --gray-dark-rgb: 53 52 48;
+  --purple-violet: #DB00FF;
+
+  --pink-light: #F1B2CE;
+  --pink-very-light: #FFF1F7;
+  --pink-soft: #FFC2E6;
+  --pink-medium: #FF8DCB;
+
+  --blue-dark: #000028;
+  --gray-dark: #353430;
+
+  --bg-light-image: url(../images/cover-image-light.png);
+  --bg-dark-image: url(../images/cover-image-dark.png);
+
+  --bg-standart-image: url(../images/cover-image.png);
+
+  --main-font: 'IBM Plex mono';
+  --main-font-size: 18px;
+}
+>>>>>>> ff9de01 (reset commit)
