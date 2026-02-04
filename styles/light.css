@@ -42,5 +42,9 @@
     --nav-accent-color: var(--gray-dark);
     --decorated-zone-color: var(--gray-dark);
     --nav-accent-color-fade: rgb(var(--gray-dark-rgb) / 0.5);
-  }
+
+    .header__recording-item {
+      display: none;
+    }  
+  }  
 }

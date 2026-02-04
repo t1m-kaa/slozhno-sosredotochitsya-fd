@@ -20,7 +20,13 @@
   --decorated-zone-color: var(--pink-fuchsia);
   --nav-accent-color: var(--pink-fuchsia);
   --nav-accent-color-fade: rgb(var(--pink-fuchsia-rgb) / 0.5);
+
+  .header__recording-item {
+    display: flex;
+  }
 }
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -36,5 +42,9 @@
     --decorated-zone-color: var(--pink-fuchsia);
     --nav-accent-color: var(--pink-fuchsia);
     --nav-accent-color-fade: rgb(var(--pink-fuchsia-rgb) / 0.5);
+
+    .header__recording-item {
+    display: flex;
+  }
   }
 }
