@@ -152,7 +152,7 @@
 }
 
 .content-section__title {
-  color: var(--accent-text-color);
+  color: var(--secondary-heading-color);
 }
 
 .content-section__item-text {
