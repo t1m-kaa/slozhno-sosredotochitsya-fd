@@ -318,3 +318,9 @@
     inline-size: 33%;
   }
 }
+
+@media (width>=768px) and (height<=740px) {
+  .header {
+    gap: 100px;
+  }
+}
